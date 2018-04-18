@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a56a2cf92b92468b967fc909dd01a172" Name="Diagram1" >
+        <EntityTypeShape EntityType="Model.Match" Width="1.5" PointX="3.625" PointY="0.625" />
+        <EntityTypeShape EntityType="Model.Billet" Width="1.5" PointX="5.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.Places" Width="1.5" PointX="5.625" PointY="3.375" />
+        <EntityTypeShape EntityType="Model.Socios" Width="1.5" PointX="7.625" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.Table" PointX="3.625" PointY="6.25" Width="1.5" />
+        <EntityTypeShape EntityType="Model.Tribunes" Width="1.5" PointX="5.625" PointY="5.625" />
+        <AssociationConnector Association="Model.FK__Billet__idMatch__267ABA7A" />
+        <AssociationConnector Association="Model.FK__Billet__idPlace__22AA2996" />
+        <AssociationConnector Association="Model.FK__Billet__numSocio__1BFD2C07" />
+        <AssociationConnector Association="Model.FK__Places__idTribun__21B6055D" />
+        <AssociationConnector Association="Model.FK__Table__idTribune__1ED998B2" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
